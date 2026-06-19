@@ -27,7 +27,7 @@ jobs:
         run: if [ -f ./gradlew ]; then chmod +x ./gradlew; fi
 
       - name: Build
-        run: ./gradlew clean build --no-daemon
+        run: gradle clean build --no-daemon
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
