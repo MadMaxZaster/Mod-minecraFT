@@ -1,0 +1,21 @@
+# Gradle
+.gradle/
+build/
+
+# Gradle wrapper downloads
+gradle-*-bin.zip
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# jars
+*.jar
+
+# other
+modminecraft-*.jar
+
+# OS
+.DS_Store
+Thumbs.db

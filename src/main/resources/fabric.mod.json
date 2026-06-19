@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "modminecraft",
+  "version": "${version}",
+  "name": "Mod-minecraFT",
+  "description": "Image Map Mod - Upload images and render them on Minecraft maps",
+  "authors": ["MadMaxZaster"],
+  "contact": {
+    "homepage": "https://modrinth.com"
+  },
+  "license": "MIT",
+  "icon": "assets/modminecraft/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["de.madmaxzaster.modminecraft.ModMinecraft"],
+    "client": ["de.madmaxzaster.modminecraft.client.ModMinecraftClient"]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.14.24",
+    "fabric": "*",
+    "minecraft": "1.20.4"
+  }
+}
